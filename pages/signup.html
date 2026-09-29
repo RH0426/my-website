@@ -16,7 +16,7 @@
         </nav>
     </header>
     <main>
-        <form>
+        <form action="POST">
             <div>
                 <label for="userFirstName">First Name:</label>
                 <input type="text", name="userFirstName", id="userFirstName", placeholder="Reid", required>
@@ -29,6 +29,46 @@
                 <label for="userEmail">Email:</label>
                 <input type="email" name="userEmail" id="userEmail", placeholder="example@gmail.com", required>
             </div>
+            <div>
+                <p>How do you get to School?</p>
+                <input type="radio" id="car" name="transportation" value="car" checked>
+                <label for="car">Car</label>
+                <input type="radio" name="transportation" id="walk" value="walk">
+                <label for="walk">Walk</label>
+                <input type="radio" name="transportation" id="bus" value="bus">
+                <label for="bus">Bus</label>
+            </div>
+            <div>
+                <p>What are your hobbies?</p>
+                <input type="checkbox" name="hobbies" id="music" value="music">
+                <label for="music">Music</label>
+                <input type="checkbox" name="hobbies" id="gaming" value="gaming">
+                <label for="gaming">Gaming</label>
+                <input type="checkbox" name="hobbies" id="coding" value="coding">
+                <label for="coding">Coding</label>
+                <input type="checkbox" name="hobbies" id="sports" value="sports">
+                <label for="sports">Sports</label>
+            </div>
+            <br>
+            <div>
+                <div>
+                    <label for="feedback">Feedback?</label>
+                </div>
+                <div>
+                    <textarea name="feedback" id="feedback" value="feedback" rows="10" cols="30" placeholder="Additional Comments:"></textarea>
+                </div>
+            </div>
+            <br>
+            <div>
+                <label for="grade">What grade are you in?</label>
+                <select name="grade" id="grade">
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+            </div>
+            <br>
             <div>
                 <button type="submit">Sign Me Up!</button>
             </div>

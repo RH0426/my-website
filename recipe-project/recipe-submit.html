@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe - Submit</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="recipe-home.html">Recipe Home Page</a>
+        </nav>
+    </header>
+    <br>
+    <hr>
+    <main>
+        <h1>Recommend a Recipe!</h1>
+        <form action="POST">
+            <div>
+                <label for="recipeUserName">Name:</label>
+                <input type="text" name="userName" id="userName" placeholder="Reid Hughes" required>
+            </div>
+            <div>
+                <label for="recipeUserEmail">Email:</label>
+                <input type="email" name="recipeUserEmail" id="recipeUserEmail" placeholder="example@gmail.com" required>
+            </div>
+            <br>
+            <div>
+                <label for="recipeCategory">What Category does your recipe fall under?</label>
+                <select name="recipeCategory" id="recipeCategory">
+                    <option value="appetizer&snack">Appetizer or Snack</option>
+                    <option value="soup&stew">Soup or Stew</option>
+                    <option value="salad&dressings">Salad or Dressings</option>
+                    <option value="entrees">Entree</option>
+                    <option value="side-dish">Side Dish</option>
+                    <option value="bread&rolls">Bread or Rolls</option>
+                    <option value="desserts">Desserts</option>
+                    <option value="beverage">Beverage</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="recipeText">Recipe Text:</label>
+            </div>
+            <div>
+                <textarea name="recipeText" id="recipeText" value="recipeText" rows="30" cols="60" placeholder="Type your recipe here"></textarea>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+    <br>
+    <hr>
+    <footer>
+        <p>HughesWebDev &copy 2026</p>
+        <a href="https://github.com/RH0426" target="_blank">Github Repository</a>
+    </footer>
+</body>
+</html>

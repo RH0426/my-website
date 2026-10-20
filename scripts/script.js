@@ -57,15 +57,15 @@ comment
 // console.log(Number(userAge) * .04)
 
 
-const amount = prompt("What is the bill amount?")
-const tipPercentage = prompt("How much to you want to tip? (Percentage)")
-const tipAmount = (Number(amount) / 100) * Number(tipPercentage)
-const totalCost = Number(amount) + tipAmount
-const receipt = `
-===== Receipt =====
-Bill: $${amount}
-Tip Percentage: ${tipPercentage}%
-Tip Cost: $${tipAmount}
-Total Cost: $${totalCost}
-`
-console.log(receipt)
+// const amount = prompt("What is the bill amount?")
+// const tipPercentage = prompt("How much to you want to tip? (Percentage)")
+// const tipAmount = (Number(amount) / 100) * Number(tipPercentage)
+// const totalCost = Number(amount) + tipAmount
+// const receipt = `
+// ===== Receipt =====
+// Bill: $${amount}
+// Tip Percentage: ${tipPercentage}%
+// Tip Cost: $${tipAmount}
+// Total Cost: $${totalCost}
+// `
+// console.log(receipt)

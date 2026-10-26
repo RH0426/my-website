@@ -1,4 +1,24 @@
-p{
-    background-color: purple;
-    color: aliceblue;
+:root {
+    --bg-color: black;
+    --alt-text-color: #36494e;
 }
+
+div {
+    background-color: rgb(46, 10, 205);
+    color: aliceblue;
+    border: 2px solid var(--bg-color);
+}
+
+.box-1 {
+    padding: 40px;
+}
+
+.box-2 {
+    margin: 50px;
+}
+
+.box-3 {
+    padding: 10px;
+    margin-top: 100px;
+}
+

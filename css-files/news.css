@@ -1,3 +1,12 @@
+/* Header Styling */
+header {
+    border: 2px solid black;
+}
+
+/* Main Styling */
+main {
+    border: 2px solid black;
+}
 .story-box{
     background-color: black;
 }
@@ -8,5 +17,9 @@ div{
     color: aliceblue;
 }
 #breaking-news-paragraph{
+    border: 2px solid black;
+    margin: 30px;
+    padding: 10px 20px;
+    padding-bottom: 30px;
     background-color: blue;
 }

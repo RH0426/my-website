@@ -1,0 +1,31 @@
+:root {
+    --text-color: aliceblue;
+    --alt-text-color: #36494e;
+}
+
+header {
+    background-color: #A9CEF4;
+    padding: 10px;
+    border: 2px solid black;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: var(--alt-text-color);
+}
+
+.website-logo {
+    border-radius: 50%;
+    width: 50px;
+}
+
+.nav-link {
+    background-color: #597081;
+    color: var(--text-color);
+    padding: 5px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+#current-link {
+    font-weight: bold;
+    text-decoration: underline;
+}

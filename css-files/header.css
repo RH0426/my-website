@@ -25,7 +25,7 @@ header {
     text-decoration: none;
 }
 
-#current-link {
+.current-link {
     font-weight: bold;
     text-decoration: underline;
 }

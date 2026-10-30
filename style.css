@@ -9,6 +9,11 @@ div {
     border: 2px solid var(--bg-color);
 }
 
+.lorem {
+    line-height: 1.5em;
+    font-family: "Miranda Sans", sans-serif;
+}
+
 .box-1 {
     padding: 40px;
 }

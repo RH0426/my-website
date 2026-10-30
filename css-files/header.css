@@ -10,6 +10,7 @@ header {
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
     color: var(--alt-text-color);
+    font-family: "Major Mono Display", monospace;
 }
 
 .website-logo {
@@ -23,9 +24,17 @@ header {
     padding: 5px;
     border-radius: 30px;
     text-decoration: none;
+    font-family: "Michroma", sans-serif;
 }
 
 .current-link {
     font-weight: bold;
     text-decoration: underline;
 }
+
+/* use em for padding and margin */
+/* one em depends on what kind of text your using
+1 em for an h1 = 32px */
+/* only us px for borders */
+/* use rem for font sizing, margins, and layout spacing */
+/* one rem = 16px */

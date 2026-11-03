@@ -1,17 +1,53 @@
+.recipe-hero-section {
+    background-image: url(/images/penne.avif);
+    background-repeat: no-repeat;
+    padding: 3vw;
+    background-size: cover;
+}
+
+.recipe-hero-section-info {
+    width: 40%;
+    border-radius: 30px;
+    background-color: rgba(0, 100, 0, 0.5);
+}
+
+.recipe-h1 {
+    color: rgb(245, 245, 249); 
+    text-align: center;
+}
+
 .recipe-hero-section-text {
-    background-color: antiquewhite;
+    text-align: center;
 }
 
 body {
-    background-color: #706666;
+    background-color: rgb(218, 193, 161);
 }
 
 a {
     text-decoration: none;
-    color: blue;
 }
 
-#header1 {
-    color: blue; 
-    text-align: center;
+.recipe-image {
+    border-radius: 40px;
+    box-shadow: 10px 7px 1px rgb(186, 152, 108);
+}
+
+.recipe-link {
+    background-color: rgb(186, 152, 108);
+    color: darkgreen;
+    padding: 0.5em;
+    border: 2px, solid, black;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.recipe-individual-link-section {
+    margin-top: 2rem;
+}
+
+.recipe-content-section {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: 2rem;
 }

@@ -1,0 +1,7 @@
+use % for sizing to change relativly to the parent
+ex: image changes size based off the size of the div it is in
+    use for things inside of containers
+
+use vw for sizing to change relative to the width of the screen
+    use for main containers
+

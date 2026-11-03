@@ -3,7 +3,7 @@
     --alt-text-color: #36494e;
 }
 
-div {
+.box-assignment {
     background-color: rgb(46, 10, 205);
     color: aliceblue;
     border: 2px solid var(--bg-color);
@@ -27,3 +27,32 @@ div {
     margin-top: 100px;
 }
 
+.phs-img {
+    width: 40vw;
+    min-width: 150px;
+    max-width: 500;
+}
+
+.hero-text, .hero-form-btn {
+    color: black;
+}
+
+.hero-card h2 {
+    text-transform: uppercase;
+    color: black;
+}
+
+.hero-card {
+    width: 40%;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: rgba(250, 235, 215, 0.5);
+}
+
+
+.hero-section {
+    padding: 3em;
+    background-image: url(images/PHS.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

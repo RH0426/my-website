@@ -18,18 +18,50 @@ header {
     width: 50px;
 }
 
+main {
+    position: relative;
+}
+
 .nav-link {
+    display: inline-block;
     background-color: #597081;
     color: var(--text-color);
     padding: 5px;
     border-radius: 30px;
     text-decoration: none;
     font-family: "Michroma", sans-serif;
+    transition: all 0.5s;
+    transition-timing-function: ease;
+}
+
+.nav-link:hover {
+    transform: scale(1.25);
+    background-color: aliceblue;
+    color: #597081
 }
 
 .current-link {
     font-weight: bold;
     text-decoration: underline;
+}
+
+.fa-angles-up {
+    font-size: 1.5rem;
+    color: blue;
+    background-color: beige;
+    padding: 0.75em;
+    border: 2px solid blue;
+    border-radius: 50%;
+    cursor: pointer;
+    position:absolute;
+    right: 50px;
+    bottom: 40px;
+    position: fixed;
+    transition: all 1s ease;
+}
+
+.fa-angles-up:hover {
+    transform: rotate(360deg);
 }
 
 /* use em for padding and margin */

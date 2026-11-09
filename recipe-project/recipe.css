@@ -30,24 +30,58 @@ a {
 
 .recipe-image {
     border-radius: 40px;
-    box-shadow: 10px 7px 1px rgb(186, 152, 108);
+    height: 90px;
+    width: 60px;
+    width: 90%;
+    min-width: 50px;
+    height: 80%;
+    min-height: 100px;
 }
 
 .recipe-link {
-    background-color: rgb(186, 152, 108);
+    background-color: rgb(143, 117, 83);
     color: darkgreen;
     padding: 0.5em;
-    border: 2px, solid, black;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
 
 .recipe-individual-link-section {
+    background-color: rgb(186, 152, 108);
+    border-radius: 10%;
     margin-top: 2rem;
+    margin-bottom: 5em;
+    padding: 1em;
+    width: 15%;
+    min-width: 100px;
+    max-width: 250px;
+    height: 15%;
+    min-height: 150px;
+    max-height: 400px;
+    box-shadow: 10px 7px 1px rgb(143, 117, 83);
+    position: relative;
 }
 
 .recipe-content-section {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     margin: 2rem;
+}
+
+.recipe-link-div {
+    padding-bottom: 2em;
+}
+
+.fa-heart {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 2em;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.fa-heart:hover {
+    transform: scale(2);
+    color: red;
 }

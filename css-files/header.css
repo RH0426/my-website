@@ -70,3 +70,25 @@ main {
 /* only us px for borders */
 /* use rem for font sizing, margins, and layout spacing */
 /* one rem = 16px */
+
+
+.home-section {
+    height: 90vh;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* align items is for colum, justfy content is for rows */
+
+.home-section div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.flex-box1 {
+    order: 3;
+}
